@@ -1,4 +1,4 @@
-import "./App.module.css";
+import "./App.css";
 import Card from "./components/BlogCard";
 import ImageCourse from "./assets/illustration-article.svg";
 import ImageAvatar from "./assets/image-avatar.webp";
