@@ -1,0 +1,25 @@
+.autorContainer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  height: 32px;
+}
+
+.autorContainer img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.autorContainer span {
+  font-weight: 700;
+  line-height: 1.5;
+  color: hsl(0, 0%, 7%);
+}
+
+@media (width <= 375px) {
+  .autorContainer span {
+    font-size: 14px;
+  }
+}
