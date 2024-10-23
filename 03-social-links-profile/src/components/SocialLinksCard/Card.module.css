@@ -1,0 +1,40 @@
+.cardContainer {
+  background-color: hsl(0, 0%, 12%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.5rem;
+  border-radius: 15px;
+  width: 370px;
+}
+
+.imageContainer {
+  width: 30%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.imageContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.informationContainer h2 {
+  color: hsl(0, 0%, 100%);
+}
+
+.informationContainer span {
+  color: hsl(75, 94%, 57%);
+}
+
+.informationContainer p {
+  color: hsl(0, 0%, 100%);
+}
+
+.socialLinksContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+}

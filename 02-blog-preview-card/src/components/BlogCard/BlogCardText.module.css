@@ -30,6 +30,11 @@
   color: hsl(0, 0%, 7%);
 }
 
+.textNameCourse:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+
 .textDescriptionCourse {
   font-weight: 500;
   color: hsl(0, 0%, 42%);
