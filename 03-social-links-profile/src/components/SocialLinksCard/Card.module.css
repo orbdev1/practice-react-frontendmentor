@@ -5,14 +5,25 @@
   align-items: center;
   padding: 2.5rem;
   border-radius: 15px;
-  width: 370px;
+  width: 400px;
+  gap: 25px;
+
+  @media (width <= 375px) {
+    width: 320px;
+    padding: 2rem;
+  }
 }
 
 .imageContainer {
-  width: 30%;
+  width: 28%;
   aspect-ratio: 1;
   border-radius: 50%;
   overflow: hidden;
+  margin-top: -10px;
+
+  @media (width <= 375px) {
+    width: 30%;
+  }
 }
 
 .imageContainer img {
@@ -20,16 +31,38 @@
   height: 100%;
 }
 
+.informationContainer {
+  text-align: center;
+}
+
 .informationContainer h2 {
   color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 24px;
+  @media (width <= 375px) {
+    font-size: 21px;
+  }
 }
 
 .informationContainer span {
+  display: block;
   color: hsl(75, 94%, 57%);
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 5px;
+  @media (width <= 375px) {
+    font-size: 12px;
+  }
 }
 
 .informationContainer p {
   color: hsl(0, 0%, 100%);
+  line-height: 1.5;
+  padding-top: 20px;
+  @media (width <= 375px) {
+    font-size: 12px;
+  }
 }
 
 .socialLinksContainer {

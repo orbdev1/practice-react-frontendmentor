@@ -17,6 +17,18 @@ function App() {
         name: "Frontend Mentor",
         url: "https://www.frontendmentor.io/profile/orbdev1",
       },
+      {
+        name: "LinkedIn",
+        url: "https://www.linkedin.com/in/ryan-quiñonez-maza-763b88216",
+      },
+      {
+        name: "Twitter",
+        url: "https://www.linkedin.com/in/ryan-quiñonez-maza-763b88216",
+      },
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/orbdev1",
+      },
     ],
   };
 
