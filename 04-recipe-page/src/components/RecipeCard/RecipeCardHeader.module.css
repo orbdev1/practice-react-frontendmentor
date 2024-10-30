@@ -1,0 +1,15 @@
+.recipe-card__header {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  & h1 {
+    font-family: Young Serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: var(--stone-900);
+  }
+
+  & p {
+    color: var(--stone-600);
+  }
+}

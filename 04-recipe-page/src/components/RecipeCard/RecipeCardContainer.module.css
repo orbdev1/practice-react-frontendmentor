@@ -1,0 +1,12 @@
+.recipeCardContainer {
+  background-color: var(--white);
+  width: 750px;
+  padding: 48px;
+  margin-top: 8rem;
+  border-radius: 28px;
+  font-family: Outfit, Young Serif, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
