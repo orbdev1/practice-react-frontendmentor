@@ -1,0 +1,34 @@
+.recipe-card__nutrition {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.recipe-card__nutrition-title {
+  color: var(--brown-800);
+  font-family: Young Serif;
+  font-weight: 400;
+  font-size: 28px;
+}
+.recipe-card__nutrition-description {
+  color: var(--stone-600);
+}
+.recipe-card__nutrition-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.recipe-card__nutrition-table-tr {
+  border-bottom: 1px solid #ddd;
+}
+.recipe-card__nutrition-table-td {
+  color: var(--stone-600);
+  padding: 14px 32px;
+  text-align: left;
+}
+.recipe-card__nutrition-table-td--smaller {
+  padding-right: 14px;
+}
+
+.recipe-card__nutrition-table-td--bolder {
+  color: var(--brown-800);
+  font-weight: 700;
+}

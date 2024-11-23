@@ -11,3 +11,9 @@ body {
   height: 100vh;
   font-size: 16px;
 }
+
+@media (width <= 375px) {
+  body {
+    background-color: var(--white);
+  }
+}

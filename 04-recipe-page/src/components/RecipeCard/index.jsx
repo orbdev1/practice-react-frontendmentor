@@ -5,6 +5,7 @@ import RecipeCardTime from "./RecipeCardTime";
 import RecipeCardIngredients from "./RecipeCardIngredients";
 import RecipeCardInstructions from "./RecipeCardInstructions";
 import RecipeCardNutrition from "./RecipeCardNutrition";
+import RecipeCardWrapperText from "./RecipeCardWrapperText";
 
 const RecipeCard = {
   Container: RecipeCardContainer,
@@ -14,6 +15,7 @@ const RecipeCard = {
   Ingredients: RecipeCardIngredients,
   Instructions: RecipeCardInstructions,
   Nutrition: RecipeCardNutrition,
+  Wrapper: RecipeCardWrapperText,
 };
 
 export default RecipeCard;

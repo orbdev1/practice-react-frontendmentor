@@ -1,0 +1,15 @@
+.recipe-card__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+
+@media (width <= 375px) {
+  .recipe-card__wrapper {
+    margin-top: 0;
+    border-radius: 0;
+    width: 100%;
+    padding: 32px;
+    margin-bottom: 0;
+  }
+}

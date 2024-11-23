@@ -2,14 +2,20 @@
   display: flex;
   flex-direction: column;
   gap: 14px;
-  & h1 {
-    font-family: Young Serif;
-    font-size: 40px;
-    font-weight: 400;
-    color: var(--stone-900);
-  }
+}
+.recipe-card__header-title {
+  font-family: Young Serif;
+  font-size: 40px;
+  font-weight: 400;
+  color: var(--stone-900);
+}
+.recipe-card__header-description {
+  color: var(--stone-600);
+  line-height: 1.5;
+}
 
-  & p {
-    color: var(--stone-600);
+@media (width <= 375px) {
+  .recipe-card__header-title {
+    font-size: 36px;
   }
 }

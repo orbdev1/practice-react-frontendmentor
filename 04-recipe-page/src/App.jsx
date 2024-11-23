@@ -68,17 +68,19 @@ function App() {
     <>
       <RecipeCard.Container>
         <RecipeCard.Image image={recipe.image} name={recipe.name} />
-        <RecipeCard.Header
-          name={recipe.name}
-          description={recipe.description}
-        />
-        <RecipeCard.Time time={recipe.time} />
+        <RecipeCard.Wrapper>
+          <RecipeCard.Header
+            name={recipe.name}
+            description={recipe.description}
+          />
+          <RecipeCard.Time time={recipe.time} />
 
-        <RecipeCard.Ingredients ingredients={recipe.ingredients} />
-        <hr />
-        <RecipeCard.Instructions instructions={recipe.instructions} />
-        <hr />
-        <RecipeCard.Nutrition nutrition={recipe.nutrition} />
+          <RecipeCard.Ingredients ingredients={recipe.ingredients} />
+          <hr />
+          <RecipeCard.Instructions instructions={recipe.instructions} />
+          <hr />
+          <RecipeCard.Nutrition nutrition={recipe.nutrition} />
+        </RecipeCard.Wrapper>
       </RecipeCard.Container>
     </>
   );

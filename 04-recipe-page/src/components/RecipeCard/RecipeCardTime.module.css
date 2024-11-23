@@ -1,8 +1,60 @@
 .recipe-card__time {
-  padding: 24px;
-  /* background-color: var(--primary-color); */
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 
-  & h2 {
-    color: var(--primary-color);
+  padding: 24px;
+  background-color: var(--rose-50);
+  border-radius: 14px;
+}
+
+.recipe-card__time-title {
+  font-weight: 600;
+  color: var(--rose-800);
+}
+.recipe-card__time-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-left: 24px;
+  line-height: 1.5;
+}
+.recipe-card__time-item {
+  color: var(--rose-800);
+}
+
+.recipe-card__time-text {
+  color: var(--stone-600);
+}
+
+.recipe-card__time-label {
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+@media (width <= 375px) {
+  .recipe-card__time-title {
+    font-size: 22px;
+  }
+
+  .recipe-card__time-list {
+    list-style: none;
+    padding-left: 6px;
+  }
+  .recipe-card__time-item {
+    position: relative;
+    padding-left: 38px;
+  }
+  .recipe-card__time-item::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+  }
+
+  .recipe-card__time-label {
+    margin-left: 0;
   }
 }

@@ -4,8 +4,8 @@ import PropTypes from "prop-types";
 export default function RecipeCardHeader({ name, description }) {
   return (
     <header className={styles["recipe-card__header"]}>
-      <h1>{name}</h1>
-      <p>{description}</p>
+      <h1 className={styles["recipe-card__header-title"]}>{name}</h1>
+      <p className={styles["recipe-card__header-description"]}>{description}</p>
     </header>
   );
 }
