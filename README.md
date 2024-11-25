@@ -1,0 +1,11 @@
+# Practicando estilado en React con Frontend Mentor
+Repositorio dedicado a realizar proyectos en React completando ejercicios de FrontendMentor con el fin de practicar
+
+Lista de proyectos
+
+| Número | Proyecto | Código | Live |
+| --- | --- | --- | --- |
+| `01` | QR Card | [Ver](01-qr-card) | [Visitar](https://qr-card-rho.vercel.app/) |
+| `02` | Blog Preview Card | [Ver](02-blog-preview-card) | [Visitar](https://practice-react-frontendmentor.vercel.app/) |
+| `03` | Social Links Profile | [Ver](03-social-links-profile) | [Visitar](https://practice-react-frontendmentor-84gd.vercel.app/) |
+| `04` | Recipe Page | [Ver](04-recipe-page) | [Visitar](https://practice-react-frontendmentor-uopt.vercel.app/) |
