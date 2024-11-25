@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import styles from "./RecipeCardImage.module.css";
 
 export default function RecipeCardImage({ image, name }) {
@@ -11,3 +12,8 @@ export default function RecipeCardImage({ image, name }) {
     </figure>
   );
 }
+
+RecipeCardImage.propTypes = {
+  image: PropTypes.string,
+  name: PropTypes.string,
+};

@@ -22,3 +22,27 @@
   color: var(--stone-600);
   margin-left: 18px;
 }
+
+@media (width <= 375px) {
+  .recipe-card__ingredients-list {
+    list-style: none;
+    margin-left: 4px;
+  }
+  .recipe-card__ingredients-item {
+    position: relative;
+    padding-left: 34px;
+  }
+
+  .recipe-card__ingredients-item::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+  }
+  .recipe-card__ingredients-text {
+    color: var(--stone-600);
+    margin-left: 0;
+  }
+}

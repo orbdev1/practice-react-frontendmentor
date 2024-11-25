@@ -12,6 +12,10 @@ body {
   font-size: 16px;
 }
 
+hr {
+  border: 1px solid #ddd;
+}
+
 @media (width <= 375px) {
   body {
     background-color: var(--white);

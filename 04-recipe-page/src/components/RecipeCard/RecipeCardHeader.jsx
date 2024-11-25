@@ -1,5 +1,5 @@
-import styles from "./RecipeCardHeader.module.css";
 import PropTypes from "prop-types";
+import styles from "./RecipeCardHeader.module.css";
 
 export default function RecipeCardHeader({ name, description }) {
   return (

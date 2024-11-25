@@ -10,16 +10,21 @@
   font-size: 28px;
 }
 .recipe-card__instructions-list {
-  margin: 0 24px;
+  margin: 0 22px;
   display: flex;
   flex-direction: column;
   gap: 14px;
 }
+
+.recipe-card__instructions-item::marker {
+  font-variant: small-caps;
+}
+
 .recipe-card__instructions-item {
   color: var(--brown-800);
   font-weight: 700;
   padding-left: 16px;
-  /* line-height: 1.5; */
+  line-height: 1.5;
 }
 .recipe-card__instructions-strong {
   font-weight: 700;
@@ -27,4 +32,18 @@
 .recipe-card__instructions-text {
   color: var(--stone-600);
   font-weight: 400;
+}
+
+@media (width <= 375px) {
+  .recipe-card__instructions-list {
+    margin-right: 0;
+  }
+
+  .recipe-card__instructions-strong {
+    font-weight: 700;
+  }
+  .recipe-card__instructions-text {
+    color: var(--stone-600);
+    font-weight: 400;
+  }
 }
