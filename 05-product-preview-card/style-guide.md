@@ -45,7 +45,7 @@ Add to Cart
 - Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
 - Weights: 500, 700
 
-- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Family: [Fraunces](https://fonts.google.c om/specimen/Fraunces)
 - Weights: 700
 
 > 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.
