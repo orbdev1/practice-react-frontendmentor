@@ -17,11 +17,9 @@ function App() {
 
   return (
     <>
-      <div className="bg-[#2f2f2f] h-full w-screen flex justify-center items-center">
-        <article className="font-montserrat">
-          <ProductCard product={product} />
-        </article>
-      </div>
+      <article className="bg-cream h-screen w-screen flex justify-center items-center font-montserrat">
+        <ProductCard product={product} />
+      </article>
     </>
   );
 }
