@@ -1,5 +1,22 @@
-type Props = {};
+type User = {
+  name: string;
+  title: string;
+  image: string;
+  special: boolean;
+};
 
-export default function TestimonialsGrid({}: Props) {
-  return <div>TestimonialsGrid</div>;
+type Testimonial = {
+  user: User;
+  testimony: string;
+  description: string;
+};
+
+type TestimonialsGridProps = {
+  testimonials: Testimonial[];
+};
+
+export default function TestimonialsGrid({
+  testimonials,
+}: TestimonialsGridProps) {
+  return <div>Print</div>;
 }
