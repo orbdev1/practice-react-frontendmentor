@@ -3,8 +3,8 @@
 
 @theme {
   --color-purple-50: hsl(260, 100%, 95%);
-  --purple-300: hsl(264, 82%, 80%);
-  --purple-500: hsl(263, 55%, 52%);
+  --color-purple-300: hsl(264, 82%, 80%);
+  --color-purple-500: hsl(263, 55%, 52%);
 
   --color-white: hsl(0, 0%, 100%);
   --color-grey-100: hsl(214, 17%, 92%);

@@ -4,9 +4,14 @@ type Testimony = {
 };
 
 type TestimonyTextProps = {
-  testimony: Testimony;
+  text: Testimony;
 };
 
-export default function TestimonyText({ testimony }: TestimonyTextProps) {
-  return <div>TestimonyText</div>;
+export default function TestimonyText({ text }: TestimonyTextProps) {
+  return (
+    <div>
+      <p>{text.testimony}</p>
+      <p>{text.description}</p>
+    </div>
+  );
 }

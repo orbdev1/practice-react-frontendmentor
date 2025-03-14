@@ -1,3 +1,6 @@
+import TestimonyText from "./TestimonyText";
+import UserCard from "./UserCard";
+
 type User = {
   name: string;
   title: string;
@@ -6,15 +9,21 @@ type User = {
 };
 
 type Testimonial = {
+  id: number;
   user: User;
   testimony: string;
   description: string;
 };
 
 type Testimony = {
-  testimonials: Testimonial;
+  testimony: Testimonial;
 };
 
 export default function Testimony({ testimony }: Testimony) {
-  return <div>Testimony</div>;
+  return (
+    <article className="bg-purple-500 p-8 rounded-lg">
+      <UserCard user={testimony.user} />
+      <TestimonyText text={testimony} />
+    </article>
+  );
 }
