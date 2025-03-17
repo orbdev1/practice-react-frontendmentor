@@ -22,7 +22,7 @@ export default function TestimonialsGrid({
   testimonials,
 }: TestimonialsGridProps) {
   return (
-    <div className="grid grid-cols-1 mx-8 mt-20 gap-8">
+    <div className="grid grid-cols-1 mx-8 my-19 gap-8">
       {testimonials.map((testimonial) => (
         <Testimony key={testimonial.id} testimony={testimonial} />
       ))}

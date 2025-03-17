@@ -44,7 +44,7 @@ const testimonials: Testimonial[] = [
     user: {
       name: "Jeanette Harmon",
       title: "Verified Graduate",
-      image: "/image-jonathan.jpg",
+      image: "/image-jeanette.jpg",
       special: false,
     },
     testimony: "An overall wonderful and rewarding experience",
@@ -56,7 +56,7 @@ const testimonials: Testimonial[] = [
     user: {
       name: "Patrick Abrams",
       title: "Verified Graduate",
-      image: "/image-jonathan.jpg",
+      image: "/image-patrick.jpg",
       special: false,
     },
     testimony:
@@ -69,7 +69,7 @@ const testimonials: Testimonial[] = [
     user: {
       name: "Kira Whittle",
       title: "Verified Graduate",
-      image: "/image-jonathan.jpg",
+      image: "/image-kira.jpg",
       special: false,
     },
     testimony: "Such a life-changing experience. Highly recommended!",
