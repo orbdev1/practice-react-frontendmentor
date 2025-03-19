@@ -15,7 +15,7 @@ export default function TestimonyText({
   descriptionColor,
 }: TestimonyTextProps) {
   return (
-    <div className="mt-3">
+    <div className="mt-3 relative">
       <p className={`${quoteColor} font-semibold text-[20px] leading-[25px]`}>
         {text.testimony}
       </p>

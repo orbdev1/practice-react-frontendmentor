@@ -19,7 +19,7 @@ export default function UserCard({
   titleColor,
 }: UserCardProps) {
   return (
-    <header className="flex flex-row items-center gap-4">
+    <header className="flex flex-row items-center gap-4 relative">
       <div
         className={`rounded-full overflow-hidden border-2 ${borderColor} w-[31px] h-[31px]`}
       >

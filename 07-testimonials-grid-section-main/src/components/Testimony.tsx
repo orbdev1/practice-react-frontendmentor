@@ -29,6 +29,12 @@ type ColorMap = {
   };
 };
 
+type PosGrid = {
+  [key: number]: {
+    position: string;
+  };
+};
+
 const colorMap: ColorMap = {
   1: {
     background: "bg-purple-500",
@@ -67,6 +73,24 @@ const colorMap: ColorMap = {
   },
 };
 
+const pos: PosGrid = {
+  1: {
+    position: "sm:row-span-2 lg:col-span-2 lg:row-span-1",
+  },
+  2: {
+    position: "sm: lg:col-span-1 lg:row-span-1",
+  },
+  3: {
+    position: "sm: lg:row-start-2 lg:col-start-1",
+  },
+  4: {
+    position: "sm:col-span-2 lg:col-span-2 lg:row-span-1",
+  },
+  5: {
+    position:
+      "sm:col-span-2 lg:col-start-4 lg:row-start-1 lg:col-span-1 lg:row-span-2",
+  },
+};
 export default function Testimony({ testimony }: Testimony) {
   const {
     background,
@@ -80,12 +104,19 @@ export default function Testimony({ testimony }: Testimony) {
     titleColor: "text-purple-300",
     descriptionColor: "text-white",
   };
-  console.log(testimony);
-  console.log(testimony.id);
-  console.log(typeof testimony.id);
+
+  const { position } = pos[testimony.id];
 
   return (
-    <article className={`${background} p-[36px] py-7 rounded-lg shadow-xl`}>
+    <article
+      className={`${background} ${position} p-[36px] py-7 rounded-lg shadow-[30px_50px_60px_rgba(0,0,0,0.20)] lg:p-[32px] relative`}
+    >
+      {testimony.user.special && (
+        <img
+          className="absolute hidden sm:block z-0 top-0 right-15 w-auto h-26"
+          src="/bg-pattern-quotation.svg"
+        />
+      )}
       <UserCard
         user={testimony.user}
         borderColor={circleColor}

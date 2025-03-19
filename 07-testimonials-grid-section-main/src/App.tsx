@@ -80,7 +80,7 @@ const testimonials: Testimonial[] = [
 
 function App() {
   return (
-    <section className="min-h-screen font-barlow font-medium">
+    <section className="min-h-screen font-barlow font-medium grid place-items-center">
       <TestimonialsGrid testimonials={testimonials} />
     </section>
   );
