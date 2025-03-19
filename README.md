@@ -12,4 +12,4 @@ Lista de proyectos
 | `04`   | Recipe Page               | [Ver](04-recipe-page)                      | [Visitar](https://practice-react-frontendmentor-uopt.vercel.app/)          |
 | `05`   | Product Preview Card      | [Ver](05-product-preview-card)             | [Visitar](https://product-preview-card-swart.vercel.app/)                  |
 | `06`   | Four card feature section | [Ver](06-four-card-feature-section-master) | [Visitar](https://four-card-feature-section-master-five-kappa.vercel.app/) |
-| `07`   | Testimonials grid section | [Ver](07-testimonials-grid-section-main)   | [Visitar](https://four-card-feature-section-master-five-kappa.vercel.app/) |
+| `07`   | Testimonials grid section | [Ver](07-testimonials-grid-section-main)   | [Visitar](https://07-testimonials-grid-section-main.vercel.app/)           |
