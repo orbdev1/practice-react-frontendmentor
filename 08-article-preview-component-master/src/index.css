@@ -9,3 +9,23 @@
 
   --font-manrope: "Manrope", sans-serif;
 }
+
+.tooltip {
+  position: absolute;
+  width: max-content;
+  background-color: var(--color-very-dark-grayish-blue);
+  padding: 20px 40px;
+  border-radius: 10px;
+  bottom: 200%;
+}
+
+.tooltip::after {
+  content: "";
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid var(--color-very-dark-grayish-blue);
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
