@@ -30,7 +30,7 @@ export default function Article() {
         <div
           className={`${
             isShareOpenMobile && "bg-very-dark-grayish-blue"
-          } flex items-center justify-between px-8 h-16 lg:my-3`}
+          } flex items-center justify-between px-8 h-16 rounded-b-2xl lg:my-3`}
         >
           {!isShareOpenMobile ? <UserProfile /> : <ShareLinks />}
           <div
